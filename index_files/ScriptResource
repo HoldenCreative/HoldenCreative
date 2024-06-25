@@ -1,0 +1,1 @@
+function _tsprocess(){$.ajax({url:'/TS/ScriptResource?d=4defbf5c0c6f44ecb34b6c9dbd564245',contentType:'text/plain',cache:false}).done(function(c){if(c=='200'){setTimeout(_tsprocess,180000);}else{window.location.href='/TS/ErrorPage.aspx?code='+c;}}).fail(function(jqXHR){setTimeout(_tsprocess,180000);});};setTimeout(_tsprocess,180000);
